@@ -99,16 +99,14 @@ function add_NRAs(data, map) { // Add exchanges
 function add_other_pois(data, map) { // Add exchanges
 	// Style markers
 	var geojsonMarkerOptions = {
-		radius: 6,
-		fillColor: '#3f51b5', // Default color
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.7
+		icon: null,	
+		color: '#3f51b5', // Default color
+		size: "s"
 	};
 	return L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
-			return L.circleMarker(latlng, $.extend(geojsonMarkerOptions, {fillColor: feature.properties.colour}));
+			var icon = L.MakiMarkers.icon($.extend(geojsonMarkerOptions, {color: feature.properties.colour}));
+			return L.marker(latlng, {icon: icon, weight: 1});
 		},
 		onEachFeature: function (feature, layer) {
 			layer.bindPopup(other_poi_popup(feature));
