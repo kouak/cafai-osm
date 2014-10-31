@@ -69,6 +69,7 @@ function debit_dsl_popup(feature) {
 		content += " VDSL";
 	}
 	content += ")</td></tr>\n";
+	content += "<tr><td><b>NRA :</td><td>" + feature.properties.nra + "</td></tr>\n";
 	content += "</table>\n";
 	return content;
 }
@@ -76,19 +77,17 @@ function debit_dsl_popup(feature) {
 function add_NRAs(data, map) { // Add exchanges
 	// Style markers
 	var geojsonMarkerOptions = {
-		radius: 8,
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.9
+		icon: 'telephone',
+		color: '#880e4f',
+		size: 's'	
 	};
 	return L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
 			if(feature.properties.vdsl == true) {
-				return L.circleMarker(latlng, $.extend(geojsonMarkerOptions, {fillColor: "#1a237e"})); // VDSL enabled
-			} else {
-				return L.circleMarker(latlng, $.extend(geojsonMarkerOptions, {fillColor: "#880e4f"})); // No VDSL
-			}
+				geojsonMarkerOptions = $.extend(geojsonMarkerOptions, {icon: 'emergency-telephone', color: '#673ab7'});
+			} 
+			var icon = L.MakiMarkers.icon(geojsonMarkerOptions);
+			return L.marker(latlng, {icon: icon});
 		},
 		onEachFeature: function (feature, layer) {
 			layer.bindPopup(nra_popup(feature));
@@ -117,7 +116,7 @@ function add_other_pois(data, map) { // Add exchanges
 
 function add_debits_DSL(data, map) { // Add broadband bandwidth 
 	var geojsonMarkerOptions = {
-		radius: 4,
+		radius: 6,
 		color: "#000",
 		weight: 1,
 		opacity: 1,
