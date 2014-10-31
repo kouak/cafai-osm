@@ -19,7 +19,7 @@ function bw_to_colour(debit) {
 	var ret = "#000";
 	var d = parseInt(debit);
 	$.each(bw_colours, function( key, col ) {
-		console.log('Testing now key > d ' + key + ' > ' + d );
+		//console.log('Testing now key > d ' + key + ' > ' + d );
 		if(key > d) {
 			return false; // Break .each loop
 		}
@@ -51,6 +51,10 @@ function nra_popup(feature) {
 		"<p>" + urlize(feature.properties.description) + "</p>\n";
 }
 
+function other_poi_popup(feature) {
+        return "<h4>" + feature.properties.name + "</h4>\n" +
+                "<p>" + urlize(feature.properties.description) + "</p>\n";
+}
 
 function debit_dsl_popup(feature) {
 	content = "<h4>" + feature.properties.name + "</h4>\n";
@@ -88,6 +92,27 @@ function add_NRAs(data, map) { // Add exchanges
 	}).addTo(map);
 }
 
+function add_other_pois(data, map) { // Add exchanges
+	// Style markers
+	var geojsonMarkerOptions = {
+		radius: 8,
+		fillColor: '#3f51b5', // Default color
+		color: "#000",
+		weight: 1,
+		opacity: 1,
+		fillOpacity: 0.9
+	};
+	L.geoJson(data, {
+		pointToLayer: function (feature, latlng) {
+			return L.circleMarker(latlng, $.extend(geojsonMarkerOptions, {fillColor: feature.properties.colour}));
+		},
+		onEachFeature: function (feature, layer) {
+			layer.bindPopup(other_poi_popup(feature));
+		}
+	}).addTo(map);
+}
+
+
 function add_debits_DSL(data, map) { // Add broadband bandwidth 
 	var geojsonMarkerOptions = {
 		radius: 4,
@@ -118,6 +143,12 @@ $( document ).ready(function() {
 	$.getJSON('json.php?get=debits_dsl').done(
 		function( data ){ 
 			add_debits_DSL(data, map);
+		}
+	);
+	// Add other POIs
+	$.getJSON('json.php?get=other_pois').done(
+		function( data ){
+			add_other_pois(data, map);
 		}
 	);
 });

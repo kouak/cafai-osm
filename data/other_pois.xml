@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pois>
+	<poi>
+		<name>Test POI</name>
+		<description>This is a test POI, http://google.fr, Test POI</description>
+		<colour>#F00</colour>
+		<lat>49.1630978</lat>
+		<lng>4.3112811</lng>
+	</poi>
+</pois>
