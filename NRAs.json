@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MOC51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/moc51-51629moc.html",
+		"VDSL": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0112811,
+          49.1630978,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PAR51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/par51-51422par.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9257455,
+          49.2196013,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CHN51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/chn51-51454chn.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0338922,
+          49.2331453,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GUE51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/gue51-51282gue.html",
+		"VDSL": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9111489,
+          49.2481248,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STY51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/sty51-51518sty.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9533696,
+          49.2977135,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NLF51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/nlf51-51393nlf.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9211214,
+          49.1326001,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VTA51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/vta51-51624vta.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8010496,
+          49.1818822,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JAU51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/jau51-51454jau.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0545291,
+          49.264451,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WIT51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/wit51-51662wit.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1108608,
+          49.2906517,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOE51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/boe51-51075boe.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0723658,
+          49.3485577,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TIN51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/tin51-51573tin.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0013623,
+          49.2475785,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BEA51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/bea51-51044bea.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1861933,
+          49.1743462,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "B8Z51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/b8z51-51058b8z.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9891127,
+          49.2233608,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PR951",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/pr951-51447pr9.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2915693,
+          49.1910614,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CER51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/cer51-51454cer.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0353942,
+          49.2551769,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "POM51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/pom51-51454pom.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0581447,
+          49.2423955,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ORG51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/org51-51454org.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0170345,
+          49.2781034,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RFS51",
+        "description": "http://www.ariase.com/fr/haut-debit/marne/rfs51-51454rfs.html",
+		"VDSL": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0753122,
+          49.229334,
+          0
+        ]
+      }
+    }
+  ]
+}

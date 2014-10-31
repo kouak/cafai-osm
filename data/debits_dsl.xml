@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debits>
+	<debit>
+		<name>Mairie Sacy</name>
+		<description></description>
+		<lat>49.19624049999999</lat>
+		<lng>3.949079799999936</lng>
+		<download>8192</download>
+		<upload>1024</upload>
+		<nra>PAR51</nra>
+		<phone>03 26 49 22 01</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Ecueil</name>
+		<description></description>
+		<lat>49.1870637</lat>
+		<lng>3.953462700000046</lng>
+		<download>5120</download>
+		<upload>800</upload>
+		<nra>PAR51</nra>
+		<phone>03 26 49 74 00</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Chamery</name>
+		<description></description>
+		<lat>49.1717127</lat>
+		<lng>3.9556316000000606</lng>
+		<download>5120</download>
+		<upload>800</upload>
+		<nra>MOC51</nra>
+		<phone>03 26 97 64 69</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Sermiers</name>
+		<description></description>
+		<lat>49.159613</lat>
+		<lng>3.983474900000033</lng>
+		<download>12288</download>
+		<upload>1024</upload>
+		<nra>MOC51</nra>
+		<phone>03 26 97 62 61</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Villers-aux-Noeuds</name>
+		<description></description>
+		<lat>49.19453499999999</lat>
+		<lng>3.9966620000000153</lng>
+		<download>0</download>
+		<upload>0</upload>
+		<nra>CHN51</nra>
+		<phone>03 26 36 11 84</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Pourcy</name>
+		<description></description>
+		<lat>49.156774</lat>
+		<lng>3.9146100000000383</lng>
+		<download>7168</download>
+		<upload>800</upload>
+		<nra>NLF51</nra>
+		<phone>03 26 59 45 48</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Marfaux</name>
+		<description></description>
+		<lat>49.1665906</lat>
+		<lng>3.892209099999946</lng>
+		<download>13312</download>
+		<upload>1024</upload>
+		<nra>VTA51</nra>
+		<phone>03 26 61 81 61</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Courmas</name>
+		<description></description>
+		<lat>49.1894101</lat>
+		<lng>3.9091104999999966</lng>
+		<download>7168</download>
+		<upload>900</upload>
+		<nra>PAR51</nra>
+		<phone>03 26 61 88 29</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Ville-Dommange</name>
+		<description></description>
+		<lat>49.2013313</lat>
+		<lng>3.934560199999965</lng>
+		<download>9216</download>
+		<upload>900</upload>
+		<nra>PAR51</nra>
+		<phone>03 26 49 25 40</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Cernay</name>
+		<description></description>
+		<lat>49.26405</lat>
+		<lng>4.103949999999941</lng>
+		<download>5120</download>
+		<upload>800</upload>
+		<nra>JAU51</nra>
+		<phone>03 26 07 06 89</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Caurel</name>
+		<description></description>
+		<lat>49.3043157</lat>
+		<lng>4.152536899999973</lng>
+		<download>7168</download>
+		<upload>800</upload>
+		<nra>WIT51</nra>
+		<phone>03 26 97 21 20</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Lavannes</name>
+		<description></description>
+		<lat>49.3141022</lat>
+		<lng>4.170058100000006</lng>
+		<download>2048</download>
+		<upload>800</upload>
+		<nra>WIT51</nra>
+		<phone>03 26 08 31 72</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Pomacle</name>
+		<description></description>
+		<lat>49.334904</lat>
+		<lng>4.1462340000000495</lng>
+		<download>2048</download>
+		<upload>800</upload>
+		<nra>BOE51</nra>
+		<phone>03 26 97 21 10</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Ormes</name>
+		<description></description>
+		<lat>49.237628</lat>
+		<lng>3.95792700000004</lng>
+		<download>3072</download>
+		<upload>800</upload>
+		<nra>TIN51</nra>
+		<phone>03 26 08 59 10</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Champfleury</name>
+		<description></description>
+		<lat>49.199034</lat>
+		<lng>4.0192460000000665</lng>
+		<download>4096</download>
+		<upload>800</upload>
+		<nra>CHN51</nra>
+		<phone>03 26 36 27 15</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Trois Puits</name>
+		<description></description>
+		<lat>49.20543139999999</lat>
+		<lng>4.039434799999981</lng>
+		<download>5120</download>
+		<upload>900</upload>
+		<nra>CHN51</nra>
+		<phone>03 26 85 57 58</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Montbré</name>
+		<description></description>
+		<lat>49.1923989</lat>
+		<lng>4.041377499999953</lng>
+		<download>5120</download>
+		<upload>500</upload>
+		<nra>CHN51</nra>
+		<phone>03 26 85 06 70</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Beaumont-sur-Vesle</name>
+		<description></description>
+		<lat>49.1740808</lat>
+		<lng>4.185960000000023</lng>
+		<download>86016</download>
+		<upload>25000</upload>
+		<nra>BEA51</nra>
+		<phone>03 26 03 92 57</phone>
+		<vdsl>true</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Val-de-Vesle</name>
+		<description></description>
+		<lat>49.174141</lat>
+		<lng>4.225287200000025</lng>
+		<download>6144</download>
+		<upload>800</upload>
+		<nra>BEA51</nra>
+		<phone>03 26 03 91 18</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Prosnes</name>
+		<description></description>
+		<lat>49.190838</lat>
+		<lng>4.291106000000013</lng>
+		<download>88064</download>
+		<upload>25000</upload>
+		<nra>PR951</nra>
+		<phone>03 26 61 72 68</phone>
+		<vdsl>true</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Les Mesneux</name>
+		<description></description>
+		<lat>49.2188869</lat>
+		<lng>3.9599914000000354</lng>
+		<download>10240</download>
+		<upload>1024</upload>
+		<nra>B8Z51</nra>
+		<phone>03 26 36 55 98</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Pargny-lès-Reims</name>
+		<description></description>
+		<lat>49.2191518</lat>
+		<lng>3.9260842999999563</lng>
+		<download>86016</download>
+		<upload>24000</upload>
+		<nra>PAR51</nra>
+		<phone>03 26 49 20 30</phone>
+		<vdsl>true</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Janvry</name>
+		<description></description>
+		<lat>49.2455369</lat>
+		<lng>3.8770956000000005</lng>
+		<download>5120</download>
+		<upload>900</upload>
+		<nra>GUE51</nra>
+		<phone>03.26.03.58.42</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Germigny</name>
+		<description></description>
+		<lat>49.2449906</lat>
+		<lng>3.8664365</lng>
+		<download>4096</download>
+		<upload>800</upload>
+		<nra>GUE51</nra>
+		<phone>03 26 03 68 73</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Rosnay</name>
+		<description></description>
+		<lat>49.2552225</lat>
+		<lng>3.8593286</lng>
+		<download>4096</download>
+		<upload>800</upload>
+		<nra>GUE51</nra>
+		<phone>03 26 03 60 87</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Bouleuse</name>
+		<description></description>
+		<lat>49.2252422</lat>
+		<lng>3.8410038000000006</lng>
+		<download>3072</download>
+		<upload>800</upload>
+		<nra>GUE51</nra>
+		<phone>03 26 03 63 89</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Méry-Prémicy</name>
+		<description></description>
+		<lat>49.2268467</lat>
+		<lng>3.8621664</lng>
+		<download>3072</download>
+		<upload>700</upload>
+		<nra>GUE51</nra>
+		<phone>03 26 05 19 78</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+	<debit>
+		<name>Mairie Trigny</name>
+		<description></description>
+		<lat>49.3026546</lat>
+		<lng>3.8954043</lng>
+		<download>3072</download>
+		<upload>700</upload>
+		<nra>STY51</nra>
+		<phone>03 26 03 12 89</phone>
+		<vdsl>false</vdsl>
+		<attenuation>0</attenuation>
+	</debit>
+</debits>
