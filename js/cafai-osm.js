@@ -99,12 +99,12 @@ function add_NRAs(data, map) { // Add exchanges
 function add_other_pois(data, map) { // Add exchanges
 	// Style markers
 	var geojsonMarkerOptions = {
-		radius: 8,
+		radius: 6,
 		fillColor: '#3f51b5', // Default color
 		color: "#000",
 		weight: 1,
 		opacity: 1,
-		fillOpacity: 0.9
+		fillOpacity: 0.7
 	};
 	return L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {

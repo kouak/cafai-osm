@@ -1,10 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pois>
 	<poi>
-		<name>Test POI</name>
-		<description>This is a test POI, http://google.fr, Test POI</description>
-		<colour>#F00</colour>
-		<lat>49.1630978</lat>
-		<lng>4.3112811</lng>
-	</poi>
+		<name>Bas d'Ormes</name>
+		<description>http://kouak.org/~kouak/cafai/Ormes1.jpg http://kouak.org/~kouak/cafai/Ormes2.jpg http://kouak.org/~kouak/cafai/Ormes3.jpg</description>
+		<lat>49.2360456</lat>
+		<lng>3.9595628000000005</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Pomacle</name>
+		<description>http://kouak.org/~kouak/cafai/Pomacle1.jpg http://kouak.org/~kouak/cafai/Pomacle2.jpg http://kouak.org/~kouak/cafai/Pomacle3.jpg</description>
+		<lat>49.33221</lat>
+		<lng>4.148144000000002</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Lavannes</name>
+		<description>http://kouak.org/~kouak/cafai/Lavannes1.jpg http://kouak.org/~kouak/cafai/Lavannes2.jpg</description>
+		<lat>49.316643</lat>
+		<lng>4.164835000000039</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Bétheny 1</name>
+		<description>http://kouak.org/~kouak/cafai/Betheny1.jpg</description>
+		<lat>49.28978490000001</lat>
+		<lng>4.0637304</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Betheny 2</name>
+		<description>http://kouak.org/~kouak/cafai/Betheny2.jpg</description>
+		<lat>49.2927588</lat>
+		<lng>4.0582238</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Betheny 3</name>
+		<description>http://kouak.org/~kouak/cafai/Betheny3.jpg</description>
+		<lat>49.2902301</lat>
+		<lng>4.052831200000001</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Montbré 1</name>
+		<description>http://kouak.org/~kouak/cafai/Montbre1.jpg</description>
+		<lat>49.1968799</lat>
+		<lng>4.0407358</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Rue Lanson 1</name>
+		<description>http://kouak.org/~kouak/cafai/RueLanson1.jpg</description>
+		<lat>49.2450878</lat>
+		<lng>4.0577035</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Chamery 1</name>
+		<description>http://kouak.org/~kouak/cafai/Chamery1.jpg</description>
+		<lat>49.1759997</lat>
+		<lng>3.9625159</lng>
+		<colour>#29b6f6</colour>	</poi>
+	<poi>
+		<name>Ikoula Datacenter</name>
+		<description></description>
+		<lat>49.2338174</lat>
+		<lng>4.034496399999966</lng>
+		<colour>#607d8b</colour>	</poi>
+	<poi>
+		<name>Château d'eau Croix Rouge</name>
+		<description></description>
+		<lat>49.2282007</lat>
+		<lng>4.0132767</lng>
+		<colour>#607d8b</colour>	</poi>
 </pois>
