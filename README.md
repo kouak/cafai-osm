@@ -15,9 +15,10 @@ Tech
 
 CAFAI-OSM uses a few technologies to operate :
 
-* [jQuery]
-* [Leaflet]:http://leafletjs.com/
-* [urlize]
+* [jQuery](http://jquery.com)
+* [Leaflet](http://leafletjs.com/)
+* [urlize.js](https://github.com/ljosa/urlize.js)
+* [Google's colour palette](http://www.google.com/design/spec/style/color.html#color-ui-color-palette)
 
 Installation
 --------------
@@ -34,7 +35,7 @@ Please have a look in the following files :
 * data/README.md
 * data/nras.xml
 * data/debits_dsl.xml
-
+* data/other_pois.xml
 
 
 License
