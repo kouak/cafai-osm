@@ -3,12 +3,14 @@ class OtherPOI extends GeoMarker {
 	public $name; // String
 	public $description; // String
 	public $colour; // Bool
+	public $icon; // String
 	
 	function __construct($p = array()) {
 		$defaults = array(
 			'colour' => '#3f51b5',
 			'name' => '',
 			'description' => '',
+			'icon' => null,
 			'lat' => 0,
 			'lng' => 0
 		);
@@ -21,6 +23,7 @@ class OtherPOI extends GeoMarker {
 		$this->name = $p['name'];
 		$this->description = $p['description'];
 		$this->colour = $p['colour'];
+		$this->icon = $p['icon'];
 		parent::__construct(array(
 			'lat' => $lat,
 			'lng' => $lng,
@@ -38,6 +41,7 @@ class OtherPOI extends GeoMarker {
 			$a = array(
 				'name' => (string) $n->name,
 				'description' => (string) $n->description,
+				'icon' => (strlen((string) $n->icon)) ? (string) $n->icon : null,
 				'colour' => (string) $n->colour,
 				'lng' => (float) $n->lng,
 				'lat' => (float) $n->lat
@@ -52,7 +56,8 @@ class OtherPOI extends GeoMarker {
 		$a = array(
 			'name' => $this->name,
 			'description' => $this->description,
-			'colour' => $this->colour
+			'colour' => $this->colour,
+			'icon' => $this->icon
 		);
 		return $a;
 	}

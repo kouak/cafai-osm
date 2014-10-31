@@ -105,7 +105,7 @@ function add_other_pois(data, map) { // Add exchanges
 	};
 	return L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
-			var icon = L.MakiMarkers.icon($.extend(geojsonMarkerOptions, {color: feature.properties.colour}));
+			var icon = L.MakiMarkers.icon($.extend(geojsonMarkerOptions, {icon: feature.properties.icon, color: feature.properties.colour}));
 			return L.marker(latlng, {icon: icon, weight: 1});
 		},
 		onEachFeature: function (feature, layer) {
