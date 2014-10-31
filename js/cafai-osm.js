@@ -2,7 +2,10 @@ var map;
 var ajaxRequest;
 var plotlist;
 var plotlayers=[];
-
+var initial_layer;
+var exchange_layer;
+var speed_layer;
+var other_pois_layer;
 var bw_colours = { /* Markers colours, kbits used, rgb code for anything above said value */
 	0 : "#259b24",
 	1024 : "#8bc34a",
@@ -41,7 +44,8 @@ function initmap() {
 	// start the map in Reims
 	map.setView(new L.LatLng(49.25, 4.033),12);
 	map.addLayer(osm);
-	
+	initial_layer = osm;
+		
 	return map;
 }
 
@@ -78,7 +82,7 @@ function add_NRAs(data, map) { // Add exchanges
 		opacity: 1,
 		fillOpacity: 0.9
 	};
-	L.geoJson(data, {
+	return L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
 			if(feature.properties.vdsl == true) {
 				return L.circleMarker(latlng, $.extend(geojsonMarkerOptions, {fillColor: "#1a237e"})); // VDSL enabled
@@ -102,7 +106,7 @@ function add_other_pois(data, map) { // Add exchanges
 		opacity: 1,
 		fillOpacity: 0.9
 	};
-	L.geoJson(data, {
+	return L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
 			return L.circleMarker(latlng, $.extend(geojsonMarkerOptions, {fillColor: feature.properties.colour}));
 		},
@@ -121,7 +125,7 @@ function add_debits_DSL(data, map) { // Add broadband bandwidth
 		opacity: 1,
 		fillOpacity: 0.8
 	};
-	L.geoJson(data, {
+	var r = L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
 			return L.circleMarker(latlng, $.extend(geojsonMarkerOptions, {fillColor: bw_to_colour(feature.properties.download)}));
 		},
@@ -129,26 +133,20 @@ function add_debits_DSL(data, map) { // Add broadband bandwidth
 			layer.bindPopup(debit_dsl_popup(feature));
 		}
 	}).addTo(map);
+	return r;
 }
 
 $( document ).ready(function() {
 	var map = initmap(); // Init map
 	// Add exchanges
-	$.getJSON('json.php?get=nras').done(
-		function( data ){ 
-			add_NRAs(data, map);
-		}
-	);
-	// Add broadband speeds
-	$.getJSON('json.php?get=debits_dsl').done(
-		function( data ){ 
-			add_debits_DSL(data, map);
-		}
-	);
-	// Add other POIs
-	$.getJSON('json.php?get=other_pois').done(
-		function( data ){
-			add_other_pois(data, map);
-		}
-	);
+	$.when(
+		$.getJSON('json.php?get=nras'),
+		$.getJSON('json.php?get=debits_dsl'),
+		$.getJSON('json.php?get=other_pois')
+	).done(function(nras, debits_dsl, other_pois) {
+		var exchange_layer = add_NRAs(nras, map);
+		var speed_layer = add_debits_DSL(debits_dsl, map);
+		var other_pois_layer = add_other_pois(other_pois, map);
+		L.control.layers(null, {'NRAs': exchange_layer, 'Débits DSL': speed_layer, 'Autres points d\'interêt': other_pois_layer}).addTo(map); // Add control widget
+	});
 });
