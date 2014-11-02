@@ -133,6 +133,28 @@ function add_debits_DSL(data, map) { // Add broadband bandwidth
 	return r;
 }
 
+function add_links_to_exchange(speed_layer, exchange_layer) {
+	var exchanges = {};
+	var links = [];
+	$.each(exchange_layer._layers, function(i, l) {
+		exchanges[l.feature.properties.name] = {latlng: l._latlng, children: []}; // Get each exchange
+	});
+	$.each(speed_layer._layers, function(i, l) {
+		exchanges[l.feature.properties.nra]['children'].push(l._latlng); // Add speed markers to each exchange
+	});
+	$.each(exchanges, function(i, l) {
+		var src = l.latlng;
+		$.each(l.children, function(i, k) {
+			var dst = k;
+			links.push(L.polyline([src, dst], {weight: 1, opacity: 0.8, color: 'black'}));
+		});
+	});
+	$.each(links, function(i, l) {
+		l.addTo(map);
+	});
+	return true;
+}
+
 $( document ).ready(function() {
 	var map = initmap(); // Init map
 	// Add exchanges
@@ -145,5 +167,7 @@ $( document ).ready(function() {
 		var speed_layer = add_debits_DSL(debits_dsl, map);
 		var other_pois_layer = add_other_pois(other_pois, map);
 		L.control.layers(null, {'NRAs': exchange_layer, 'Débits DSL': speed_layer, 'Autres points d\'interêt': other_pois_layer}).addTo(map); // Add control widget
+		// Add lines between speed markers and exchange markers
+		add_links_to_exchange(speed_layer, exchange_layer);
 	});
 });
