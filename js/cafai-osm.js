@@ -146,7 +146,7 @@ function add_links_to_exchange(speed_layer, exchange_layer) {
 		var src = l.latlng;
 		$.each(l.children, function(i, k) {
 			var dst = k;
-			links.push(L.polyline([src, dst], {weight: 1, opacity: 0.8, color: 'black'}));
+			links.push(L.polyline([src, dst], {weight: 1, opacity: 0.8, color: '#212121'}));
 		});
 	});
 	$.each(links, function(i, l) {
