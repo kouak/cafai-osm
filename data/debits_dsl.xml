@@ -336,4 +336,40 @@
 		<vdsl>false</vdsl>
 		<attenuation>0</attenuation>
 	</debit>
+	<debit>
+		<name>Mairie Berru</name>
+		<description></description>
+		<lat>49.2711312</lat>
+		<lng>4.1506571</lng>
+		<nra>BER51</nra>
+		<phone>0326032078</phone>
+		<vdsl>true</vdsl>
+		<attenuation>10</attenuation>
+		<download>70000</download>
+		<upload>20480</upload>
+	</debit>
+	<debit>
+		<name>Mairie Nogent l'Abbesse</name>
+		<description></description>
+		<lat>49.2540827</lat>
+		<lng>4.1562611</lng>
+		<nra>BER51</nra>
+		<phone>0326030743</phone>
+		<vdsl>false</vdsl>
+		<attenuation>37.8</attenuation>
+		<download>9800</download>
+		<upload>1024</upload>
+	</debit>
+	<debit>
+		<name>Mairie Chalons-sur-Vesle</name>
+		<description></description>
+		<lat>49.289535</lat>
+		<lng>3.917939</lng>
+		<nra>STY51</nra>
+		<phone>0326031900</phone>
+		<vdsl>false</vdsl>
+		<attenuation>56.24</attenuation>
+		<download>4600</download>
+		<upload>889</upload>
+	</debit>
 </debits>

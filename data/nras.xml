@@ -29,6 +29,13 @@
 		<lng>3.9111489</lng>
 	</nra>
 	<nra>
+		<name>BER51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/ber51-51052ber.html</description>
+		<vdsl>true</vdsl>
+		<lat>49.272394</lat>
+		<lng>4.154298</lng>
+	</nra>
+	<nra>
 		<name>STY51</name>
 		<description>http://www.ariase.com/fr/haut-debit/marne/sty51-51518sty.html</description>
 		<vdsl>true</vdsl>
@@ -126,5 +133,53 @@
 		<lat>49.229334</lat>
 		<lng>4.0753122</lng>
 	</nra>
+	<nra>
+		<name>MUI51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/mui51-51391mui.html</description>
+		<vdsl>true</vdsl>
+		<lat>49.274698</lat>
+		<lng>3.892007</lng>
+	</nra>
+	<nra>
+		<name>HER51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/her51-51291her.html</description>
+		<vdsl>true</vdsl>
+		<lat>49.336266</lat>
+		<lng>3.910595</lng>
+	</nra>
+	<nra>
+		<name>JON51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/jon51-51308jon.html</description>
+		<vdsl>true</vdsl>
+		<lat>49.287431</lat>
+		<lng>3.814341</lng>
+	</nra>
+	<nra>
+		<name>ISL51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/isl51-51299isl.html</description>
+		<vdsl>true</vdsl>
+		<lat>49.356217</lat>
+		<lng>4.204242</lng>
+	</nra>
+	<nra>
+		<name>BEI51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/bei51-51046bei.html</description>
+		<vdsl>true</vdsl>
+		<lat>49.249333</lat>
+		<lng>4.216828</lng>
+	</nra>
+	<nra>
+		<name>TSY51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/tsy51-51562tsy.html</description>
+		<vdsl>true</vdsl>
+		<lat>49.214644</lat>
+		<lng>4.106134</lng>
+	</nra>
+	<nra>
+		<name>SIL51</name>
+		<description>http://www.ariase.com/fr/haut-debit/marne/sil51-51536sil.html</description>
+		<vdsl>false</vdsl>
+		<lat>49.198965</lat>
+		<lng>4.130808</lng>
+	</nra>
 </nras>
-
