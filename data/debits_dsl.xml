@@ -72,18 +72,18 @@
 		<vdsl>false</vdsl>
 		<attenuation>0</attenuation>
 	</debit>
-	<debit>
-		<name>Mairie Marfaux</name>
-		<description></description>
-		<lat>49.1665906</lat>
-		<lng>3.892209099999946</lng>
-		<download>13312</download>
-		<upload>1024</upload>
-		<nra>VTA51</nra>
-		<phone>03 26 61 81 61</phone>
-		<vdsl>false</vdsl>
-		<attenuation>0</attenuation>
-	</debit>
+        <debit>
+                <name>Mairie Marfaux</name>
+                <description></description>
+                <phone>0326618261</phone>
+                <nra>UZY51</nra>
+                <attenuation>26.95</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1640921</lat>
+                <lng>3.8909349</lng>
+                <download>15270</download>
+                <upload>1186</upload>
+        </debit>
 	<debit>
 		<name>Mairie Courmas</name>
 		<description></description>
@@ -372,4 +372,310 @@
 		<download>4600</download>
 		<upload>889</upload>
 	</debit>
+	<debit>
+		<name>Mairie Courcy</name>
+		<description></description>
+		<lat>49.3223993</lat>
+		<lng>4.0026451</lng>
+		<nra>CRY51</nra>
+		<phone>0326496329</phone>
+		<vdsl>false</vdsl>
+		<attenuation>3.5</attenuation>
+		<download>19000</download>
+		<upload>1024</upload>
+	</debit>
+	<debit>
+		<name>Mairie Brimont</name>
+		<description></description>
+		<lat>49.3399348</lat>
+		<lng>4.0231687</lng>
+		<nra>CRY51</nra>
+		<phone>0326496543</phone>
+		<vdsl>false</vdsl>
+		<attenuation>32.45</attenuation>
+		<download>11600</download>
+		<upload>1024</upload>
+	</debit>
+	<debit>
+		<name>Mairie Loivre</name>
+		<description></description>
+		<lat>49.3460472</lat>
+		<lng>3.9831247</lng>
+		<nra>LOI51</nra>
+		<phone>0326610407</phone>
+		<vdsl>false</vdsl>
+		<attenuation>4.32</attenuation>
+		<download>19600</download>
+		<upload>1024</upload>
+	</debit>
+	<debit>
+		<name>Mairie Thil</name>
+		<description></description>
+		<phone>0326031134</phone>
+		<nra>STY51</nra>
+		<vdsl>false</vdsl>
+		<attenuation>32.19</attenuation>
+		<download>11633</download>
+		<upload>1024</upload>
+		<lat>49.3162048</lat>
+		<lng>3.9620904</lng>
+	</debit>
+	<debit>
+		<name>Mairie Pouillon</name>
+		<description></description>
+		<phone>0326031638</phone>
+		<nra>STY51</nra>
+		<attenuation>42.92</attenuation>
+		<vdsl>false</vdsl>
+		<lat>49.3142255</lat>
+		<lng>3.9500340</lng>
+		<download>9740</download>
+		<upload>1021</upload>
+	</debit>
+<debit>
+        <name>Mairie Prouilly</name>
+        <description></description>
+        <phone>0326089921</phone>
+        <nra>JON51</nra>
+        <attenuation>42.05</attenuation>
+        <vdsl>false</vdsl>
+        <lat>49.3000321</lat>
+        <lng>3.8518210</lng>
+        <download>9740</download>
+        <upload>1021</upload>
+</debit>
+
+<debit>
+        <name>Allée du fer à cheval</name>
+        <description></description>
+        <phone>0326478717</phone>
+        <nra>CER51</nra>
+        <attenuation>49.32</attenuation>
+        <vdsl>false</vdsl>
+        <lat>49.2380930</lat>
+        <lng>4.0109920</lng>
+        <download>7130</download>
+        <upload>1021</upload>
+</debit>
+<debit>
+        <name>Allée de la Carelle d'Empas</name>
+        <description></description>
+        <phone>0326070153</phone>
+        <nra>JAU51</nra>
+        <attenuation>51.49</attenuation>
+        <vdsl>false</vdsl>
+        <lat>49.299517</lat>
+        <lng>4.065082</lng>
+        <download>6510</download>
+        <upload>1021</upload>
+</debit>
+        <debit>
+                <name>Mairie Aubilly</name>
+                <description></description>
+                <phone>0326610321</phone>
+                <nra>PAR51</nra>
+                <attenuation>65.85</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2134003</lat>
+                <lng>3.8594170</lng>
+                <download>2600</download>
+                <upload>925</upload>
+        </debit>
+        <debit>
+                <name>Mairie Saint Euphraise Et Clairizet</name>
+                <description></description>
+                <phone>0326492590</phone>
+                <nra>PAR51</nra>
+                <attenuation>42.04</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2118575</lat>
+                <lng>3.8858306</lng>
+                <download>9740</download>
+                <upload>1021</upload>
+        </debit>
+        <debit>
+                <name>Mairie Bouilly</name>
+                <description></description>
+                <phone>0326492792</phone>
+                <nra>PAR51</nra>
+                <attenuation>58.72</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1992093</lat>
+                <lng>3.8883899</lng>
+                <download>4660</download>
+                <upload>925</upload>
+        </debit>
+        <debit>
+                <name>Mairie Bligny</name>
+                <description></description>
+                <phone>0326849827</phone>
+                <nra>PAR51</nra>
+                <attenuation>53</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1939768</lat>
+                <lng>3.8628883</lng>
+                <download>4280</download>
+                <upload>900</upload>
+        </debit>
+        <debit>
+                <name>Mairie Taissy</name>
+                <description></description>
+                <phone>0326823927</phone>
+                <nra>TSY51</nra>
+                <attenuation>3.45</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2114484</lat>
+                <lng>4.1029190</lng>
+                <download>22778</download>
+                <upload>1196</upload>
+        </debit>
+        <debit>
+                <name>Mairie Puisieulx</name>
+                <description></description>
+                <phone>0326491068</phone>
+                <nra>SIL51</nra>
+                <attenuation>30.48</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1926198</lat>
+                <lng>4.1130736</lng>
+                <download>13990</download>
+                <upload>1186</upload>
+        </debit>
+        <debit>
+                <name>Mairie Rilly La Montagne</name>
+                <description></description>
+                <phone>0326034010</phone>
+                <nra>RIL51</nra>
+                <attenuation>2.86</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1649527</lat>
+                <lng>4.0447072</lng>
+                <download>22779</download>
+                <upload>1196</upload>
+        </debit>
+
+        <debit>
+                <name>Mairie Ludes</name>
+                <description></description>
+                <phone>0326611250</phone>
+                <nra>LUD51</nra>
+                <attenuation>7.88</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1549942</lat>
+                <lng>4.0799700</lng>
+                <download>22520</download>
+                <upload>1196</upload>
+        </debit>
+        <debit>
+                <name>Mairie Mailly Champagne</name>
+                <description></description>
+                <phone>0326494118</phone>
+                <nra>VAY51</nra>
+                <attenuation>41.99</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1551343</lat>
+                <lng>4.1118576</lng>
+                <download>9740</download>
+                <upload>1021</upload>
+        </debit>
+        <debit>
+                <name>Mairie Verzy</name>
+                <description></description>
+                <phone>0326979091</phone>
+                <nra>VZY51</nra>
+                <attenuation>13.05</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1472003</lat>
+                <lng>4.1631457</lng>
+                <download>22060</download>
+                <upload>1196</upload>
+        </debit>
+
+        <debit>
+                <name>Mairie Prunay</name>
+                <description></description>
+                <phone>0326617244</phone>
+                <nra>PRU51</nra>
+                <attenuation>10.21</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.1959829</lat>
+                <lng>4.1836000</lng>
+                <download>22519</download>
+                <upload>1196</upload>
+        </debit>
+        <debit>
+                <name>Mairie Epoye</name>
+                <description></description>
+                <phone>0326487190</phone>
+                <nra>STM51</nra>
+                <attenuation>55.86</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2887643</lat>
+                <lng>4.2326799</lng>
+                <download>5280</download>
+                <upload>1021</upload>
+        </debit>
+
+        <debit>
+                <name>Mairie Courcelles-Sapicourt</name>
+                <description></description>
+                <phone>0326485967</phone>
+                <nra>JON51</nra>
+                <attenuation>49.81</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2619010</lat>
+                <lng>3.8452011</lng>
+                <download>7130</download>
+                <upload>1021</upload>
+        </debit>
+        <debit>
+                <name>Mairie Treslon</name>
+                <description></description>
+                <phone>0326974032</phone>
+                <nra>SAV51</nra>
+                <attenuation>51.37</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2403754</lat>
+                <lng>3.8235599</lng>
+                <download>6510</download>
+                <upload>1021</upload>
+        </debit>
+
+        <debit>
+                <name>Mairie Poilly</name>
+                <description></description>
+                <phone>0326032059</phone>
+                <nra>VTA51</nra>
+                <attenuation>61.09</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2156702</lat>
+                <lng>3.8193004</lng>
+                <download>3520</download>
+                <upload>925</upload>
+        </debit>
+        <debit>
+                <name>Mairie Tramery</name>
+                <description></description>
+                <phone>0326974327</phone>
+                <nra>SAV51</nra>
+                <attenuation>40.74</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2234826</lat>
+                <lng>3.8034544</lng>
+                <download>10500</download>
+                <upload>1021</upload>
+        </debit>
+        <debit>
+                <name>Mairie Sarcy</name>
+                <description></description>
+                <phone>0326618655</phone>
+                <nra>VTA51</nra>
+                <attenuation>47.74</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2069351</lat>
+                <lng>3.8255747</lng>
+                <download>7750</download>
+                <upload>1021</upload>
+        </debit>
+
 </debits>
