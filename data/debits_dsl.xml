@@ -677,5 +677,17 @@
                 <download>7750</download>
                 <upload>1021</upload>
         </debit>
+        <debit>
+                <name>Rue Chantereine Trigny</name>
+                <description></description>
+                <phone>0326831708</phone>
+                <nra>STY51</nra>
+                <attenuation>68.98</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.2958752</lat>
+                <lng>3.8928394</lng>
+                <download>2150</download>
+                <upload>925</upload>
+        </debit>
 
 </debits>
