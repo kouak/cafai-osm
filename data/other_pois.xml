@@ -77,4 +77,36 @@
 		<icon>star-stroked</icon>
 		<lng>4.0132767</lng>
 		<colour>#607d8b</colour>	</poi>
+	<poi>
+		<name>Trigny</name>
+		<description>http://www.heywhatsthat.com/main-0904.html?view=LJHGRJM8</description>
+		<lat>49.302796</lat>
+		<lng>3.896542</lng>
+		<icon>camera</icon>
+		<colour>#E91E63</colour>
+	</poi>
+	<poi>
+		<name>Pomacle</name>
+		<description>http://www.heywhatsthat.com/main-0904.html?view=UIF0JKFL</description>
+		<lat>49.33575</lat>
+		<lng>4.146309</lng>
+		<icon>camera</icon>
+		<colour>#E91E63</colour>
+	</poi>
+	<poi>
+		<name>Beaumont-sur-Vesle</name>
+		<description>http://www.heywhatsthat.com/main-0904.html?view=P8AC8MH9</description>
+		<lat>49.175</lat>
+		<lng>4.1825</lng>
+                <icon>camera</icon>
+                <colour>#E91E63</colour>
+	</poi>
+	<poi>
+		<name>Lavannes</name>
+		<description>http://www.heywhatsthat.com/main-0904.html?view=QK20D2J9</description>
+		<lat>49.316828</lat>
+		<lng>4.164784</lng>
+		<icon>camera</icon>
+		<colour>#E91E63</colour>
+	</poi>
 </pois>

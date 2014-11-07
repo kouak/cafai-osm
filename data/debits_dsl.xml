@@ -689,5 +689,17 @@
                 <download>2150</download>
                 <upload>925</upload>
         </debit>
+        <debit>
+                <name>Mairie Fresne Les Reims</name>
+                <description></description>
+                <phone>0326975090</phone>
+                <nra>BOE51</nra>
+                <attenuation>28.58</attenuation>
+                <vdsl>false</vdsl>
+                <lat>49.3384569</lat>
+                <lng>4.0973914</lng>
+                <download>14630</download>
+                <upload>1186</upload>
+        </debit>
 
 </debits>
