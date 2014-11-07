@@ -83,10 +83,23 @@ function add_NRAs(data, map) { // Add exchanges
 	};
 	return L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
+			var o = null;
 			if(feature.properties.vdsl == true) {
-				geojsonMarkerOptions = $.extend(geojsonMarkerOptions, {icon: 'emergency-telephone', color: '#673ab7'});
-			} 
-			var icon = L.MakiMarkers.icon(geojsonMarkerOptions);
+				o = {
+					icon: 'emergency-telephone',
+					color: '#673ab7',
+					size: 's'
+				};
+			}
+			else {
+				o = {
+					icon: 'telephone',
+					color: '#880e4f',
+					size: 's'
+				};
+			}
+			 
+			var icon = L.MakiMarkers.icon(o);
 			return L.marker(latlng, {icon: icon});
 		},
 		onEachFeature: function (feature, layer) {
@@ -140,7 +153,9 @@ function add_links_to_exchange(speed_layer, exchange_layer) {
 		exchanges[l.feature.properties.name] = {latlng: l._latlng, children: []}; // Get each exchange
 	});
 	$.each(speed_layer._layers, function(i, l) {
-		exchanges[l.feature.properties.nra]['children'].push(l._latlng); // Add speed markers to each exchange
+		if(l.feature.properties.nra in exchanges) {
+			exchanges[l.feature.properties.nra]['children'].push(l._latlng); // Add speed markers to each exchange
+		}
 	});
 	$.each(exchanges, function(i, l) {
 		var src = l.latlng;
