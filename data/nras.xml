@@ -101,7 +101,7 @@
 	<nra>
 		<name>PR951</name>
 		<description>http://www.ariase.com/fr/haut-debit/marne/pr951-51447pr9.html</description>
-		<vdsl>true</vdsl>
+		<vdsl>false</vdsl>
 		<lat>49.1910614</lat>
 		<lng>4.2915693</lng>
 	</nra>
